@@ -1,0 +1,24 @@
+.home {
+  margin: 5px auto 0;
+  min-height: 95vh;
+  width: 90%;
+  max-width: 860px;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+.btn {
+  color: white;
+  padding: 10px 15px;
+  width: 150px;
+  background: #00bbf9;
+  margin: 10px auto;
+  border-radius: 6px;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #17a8d9;
+}

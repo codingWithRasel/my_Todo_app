@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form {
+  background: #e0fbfc;
+  box-sizing: border-box;
+
+  margin-bottom: 20px;
+  padding: 20px;
+}
+input,
+textarea {
+  padding: 10px;
+  display: block;
+  font-size: 19px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+textarea {
+  resize: vertical;
+  max-height: 100px;
+}
+input:focus:not(.btn),
+textarea:focus {
+  border-bottom: 2px solid purple;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background: #4ea8de;
+  cursor: pointer;
+  transition: .2s;
+}
+.btn:hover {
+  background: #66a3c9;
+}
