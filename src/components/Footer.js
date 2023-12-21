@@ -11,7 +11,6 @@ function Footer() {
         textAlign: "center",
         padding: "7px 0",
         borderBottomLeftRadius: "10px",
-        borderBottomLeftRadius: "10px",
       }}
     >
       <span>&copy; </span> App Created by Rasel Hossain
